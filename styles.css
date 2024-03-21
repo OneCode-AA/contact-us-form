@@ -8,6 +8,7 @@ body {
   width: 98%;
   height: 800px;
   margin: 5px auto;
+  /* background-color: wheat; */
 }
 
 .container {
@@ -16,9 +17,10 @@ body {
   width: 100%;
   max-width: 900px;
   height: 700px;
-  border: 1px solid black;
+  border: none;
   margin: 100px auto;
-  border-radius: 10px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 23px 4px rgba(0, 0, 0, 0.5);
 }
 
 .bg {
@@ -31,6 +33,7 @@ body {
   width: 100%;
   flex: 4;
   padding: 0 0 0 2px;
+  background-color: white;
 }
 
 .contact-us {
